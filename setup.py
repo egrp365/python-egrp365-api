@@ -5,10 +5,10 @@ with open('README.rst', 'r') as fh:
 
 setuptools.setup(
     name='egrp365',
-    version='0.0.3',
+    version='0.0.4',
     packages=['egrp365'],
     url='https://github.com/egrp365/python-egrp365-api',
-    license='LICENSE',
+    license='MIT License (MIT)',
     long_description=long_description,
     author='egrp365',
     author_email='mail@egrp365.ru',
