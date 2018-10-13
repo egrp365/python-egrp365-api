@@ -8,4 +8,5 @@ API ключ выдается по запросу mail@egrp365.ru
 ---------
 
 .. code-block:: bash
+
     $ pip install egrp365
