@@ -41,7 +41,7 @@ class EGRP365:
             request_params = {'apiKey': self._api_key}
             request_params.update(params)
 
-            response = getattr(requests, request_type)(self._base_url + method, request_params)
+            response = getattr(requests, request_type)(self._base_url + method, params=request_params)
 
             if response.status_code != 200:
                 raise EgrpException('Ошибка получения данных')
